@@ -1,0 +1,3 @@
+./input/test.bmp
+./output/test_criptata.bmp
+secret_key.txt

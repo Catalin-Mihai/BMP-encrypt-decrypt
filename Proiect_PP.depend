@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1546097183 source:e:\proiecte\proiect_pp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1581347291 source:c:\users\catalin\documents\bmp-manipulation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+

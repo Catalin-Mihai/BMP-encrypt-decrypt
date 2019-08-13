@@ -1,0 +1,13 @@
+./input/test.bmp
+10
+./input/cifra0.bmp
+./input/cifra1.bmp
+./input/cifra2.bmp 
+./input/cifra3.bmp
+./input/cifra4.bmp
+./input/cifra5.bmp
+./input/cifra6.bmp
+./input/cifra7.bmp
+./input/cifra8.bmp
+./input/cifra9.bmp
+./output/test_template.bmp

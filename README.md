@@ -1,13 +1,54 @@
-# Proiect la materia Programare Procedurala (C lang).
-## Se cere in prima parte:
-- Citirea unei imagini de tip Bitmap in memoria interna
-- Permutarea pixelilor cu algortimul XORSHIFT32
-- Criptarea pixelilor permutati in functie de o cheie secreta citita din fisier
-- Salvarea imaginii criptate
-- Decriptarea imaginii criptate folosind pasii de mai sus in sens invers
-## Se cere in a doua parte:
-- Citirea unei imagini de tip Bitmap in memoria interna
-- Citirea unor sabloane (imagini Bitmap)
-- Implementarea algoritmului de pattern-matching
-- Crearea de dreptunghiuri colorate (in functie de sablonul gasit) pentru evidentierea matching-ului peste poza initiala.
-- Eliminarea dreptunghiurilor suprapuse care obtureaza celelalte dreptunghiuri deja formate.
+# Bitmap image manipulation
+
+## About
+
+This is a project I made for my Procedural Programming (C lang) class at the university.
+I was supposed to do a program that can encrypt a BMP file and decrypt using a given secret key.
+
+The encryption part is very detailed in the `Proiect programare procedurala.pdf`. It's written in romanian so I will elaborate here.
+
+## The encryption part
+
+- Read a BMP file in the intern memory
+- Swap pixels order with XORSHIFT32 algorithm
+- Encrypt pixels with the given key
+- Save the encrypted image into BMP format.
+- Decrypt the resulting image to verify that you made the encyption in a correct manner.
+
+## The temple matching part
+
+- Read a BMP file in the intern memory
+- Read the templated of the given digits (BMP files)
+- Implement the temple matching algorithm
+- Create colored rectangles over the original image to evidentiate the patterns found.
+- Elimination of overlapping rectangles that obstruct the other rectangles already formed.
+
+## Test yourself
+
+1. Install CodeBlocks IDE
+2. Clone this repository and open `Proiect_PP.cbp` with CodeBlocks
+3. You are ready to run this project.
+
+### Optional 
+
+4. You cant modify `cripteaza.txt` to look like: 
+
+```txt
+./input/your_image.bmp  -> Input path
+./output/your_image_encrypted.bmp  -> Output path
+your_secret_code.txt  -> Secret key
+```
+
+Where `./input/your_image.bmp` can be any BMP format image path and `your_secret_code.txt` is a .txt file which contains your secret encyption code.
+The output image will be stored here `./output/your_image_encrypted.bmp`
+
+5. You can modify `decripteaza.txt` to look like:
+
+```txt
+./output/output_encrypted.bmp  -> Encrypted input image
+./output/output_decrypted.bmp  -> Decrypted output image
+your_secret_key.txt  -> Secret key
+```
+
+Where `output_encrypted.bmp` is path to an encrypted image from the above step and `your_secret_code.txt` is a .txt file which contains your secret encyption code.
+The output image will be the decrypted version of the input image and it will be stored in `./output/output_decrypted.bmp`
