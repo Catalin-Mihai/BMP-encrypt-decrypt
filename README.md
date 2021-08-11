@@ -3,9 +3,9 @@
 ## About
 
 This is a project I made for my Procedural Programming (C lang) class at the university.
-I was supposed to do a program that can encrypt a BMP file and decrypt using a given secret key.
+I had to do a program that can encrypt a BMP file and decrypt it using a given secret key.
 
-The encryption part is very detailed in the `Proiect programare procedurala.pdf`. It's written in romanian so I will elaborate here.
+The encryption part is detailed in the `Proiect programare procedurala.pdf` file.
 
 ## The encryption part
 
@@ -15,13 +15,13 @@ The encryption part is very detailed in the `Proiect programare procedurala.pdf`
 - Save the encrypted image into BMP format.
 - Decrypt the resulting image to verify that you made the encyption in a correct manner.
 
-## The temple matching part
+## The template matching part
 
 - Read a BMP file in the intern memory
-- Read the templated of the given digits (BMP files)
-- Implement the temple matching algorithm
+- Read the templates of the given digits (BMP files)
+- Implement the template matching algorithm
 - Create colored rectangles over the original image to evidentiate the patterns found.
-- Elimination of overlapping rectangles that obstruct the other rectangles already formed.
+- Eliminate the overlapping rectangles that obstruct the other rectangles already formed.
 
 ## Test yourself
 
@@ -31,7 +31,7 @@ The encryption part is very detailed in the `Proiect programare procedurala.pdf`
 
 ### Optional 
 
-4. You cant modify `cripteaza.txt` to look like: 
+4. You can modify `cripteaza.txt` to look like: 
 
 ```txt
 ./input/your_image.bmp  -> Input path
