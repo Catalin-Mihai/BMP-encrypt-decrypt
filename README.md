@@ -15,6 +15,15 @@ The encryption part is detailed in the `Proiect programare procedurala.pdf` file
 - Save the encrypted image into BMP format.
 - Decrypt the resulting image to verify that you made the encyption in a correct manner.
 
+Input image: 
+
+![](output/test_decriptata.bmp)
+
+Output image (crypted): 
+
+![](output/test_criptata.bmp)
+
+
 ## The template matching part
 
 - Read a BMP file in the intern memory
@@ -22,6 +31,11 @@ The encryption part is detailed in the `Proiect programare procedurala.pdf` file
 - Implement the template matching algorithm
 - Create colored rectangles over the original image to evidentiate the patterns found.
 - Eliminate the overlapping rectangles that obstruct the other rectangles already formed.
+
+Output image:
+
+![](output/test_template.bmp)
+
 
 ## Test yourself
 
